@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+    background-color: #290059;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+ height: 10vh;
+}
+
+.titles{
+    color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titles h1{
+    font-size: 100px;
+}
+
+.titles h3{
+    font-size: 30px;
+}
+
+.plan-1{
+    float: left;
+    margin-left: 18%;
+}
+
+.card{
+    background-color: #ffffff;
+    height: 40rem;
+    width: 30rem;
+    border-radius: 16px;
+    padding: 50px 0 0 0;
+    margin-top: 4rem;
+}
+
+.titles-card{
+    width: 100%;
+    color: #290059;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+}
+.titles-card h1{
+    margin-bottom: 10px;
+}
+
+.line{
+    width: 70%;
+    height: 2px;
+    margin: 40px auto 50px auto;
+    background-color: gray;
+}
+
+.domain {
+    margin-bottom: 20px ;
+    text-align: center;
+}
+
+.domain li {
+    margin-bottom: 50px ;
+    color: gray;
+    font-weight: bold;
+    font-size: 40px;
+}
+.btn{
+    text-align: center;
+}
+
+.btn button{
+    border: none;
+    border-radius: 6px;
+    padding: 20px 30px;
+    background-color: #004AAD;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.plan-2{
+    float: right;
+    margin-right: 18%;
+}
+
+footer{
+    clear: both;
+    height: 20vh;
+}
